@@ -1,0 +1,29 @@
+body {
+    background-color: #FCF1E9;
+    color: #FF790E;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Merienda', cursive;  
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-size: 45px;
+
+}
+
+
+a:hover { 
+    color: #95818D;
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: overline;
+}
+
+
