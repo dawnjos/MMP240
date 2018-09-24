@@ -1,0 +1,31 @@
+body {
+    border: 5px solid blue;
+    background-color: paleturquoise;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+h1 {
+    border: 3px solid red;
+    background-color: gold;
+    margin: 0;
+}
+
+p {
+    background-color: lightsalmon;
+}
+
+/* CSS for a Two Column Layout using html 5 tags */
+aside {
+    border: 5px solid white; /* you can remove the border if space is need on left and right */
+    width: 30%;
+    float: left;
+}
+
+article {
+     /*border: 5px solid yellow;*/
+     width: 60%;
+     float: right;
+     margin-right: 25px;
+}
