@@ -1,3 +1,4 @@
+/*One and Two Column Layout Css*/
 body {
     border: 5px solid blue;
     background-color: paleturquoise;
@@ -20,12 +21,12 @@ p {
 aside {
     border: 5px solid white; /* you can remove the border if space is need on left and right */
     width: 30%;
-    float: left;
+    float: left; /*Two column with Float left*/
 }
 
 article {
      /*border: 5px solid yellow;*/
      width: 60%;
-     float: right;
+     float: right; /*Two column with Float right*/
      margin-right: 25px;
 }

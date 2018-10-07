@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    background-color: #F5978D;
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+
+nav {
+    width: 100%;
+    background-color: gray;
+    text-align: right;
+}
+
+nav ul {
+        list-style: none;
+}
+
+nav li {
+        display: inline;
+}
+
+nav a {
+        display: inline-block;
+        padding: 20px;
+        background-color: lightblue;
+        color: black;
+        text-decoration: none;
+        
+}
+
+nav a:hover {
+             background-color: black;
+             color: white;
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header h1 {
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px; 
+
+}
+
+h2 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5978D;
+
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    justify-content: center;
+}
+
+.step1 img {
+    height: 600px;
+    width: 60%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.step-A article {
+    background-color: #F5978D;
+    height: 600;
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.step2A img {
+    height: 732px;
+    width: 60%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.step2-A article {
+    background-color: #F5978D;
+    height: 700;
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.step3 img {
+    height: 500px;
+    width: 33.33%;
+    float: left;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.step3_A article {
+    height: 500px;
+    width: 33.33%;
+    float: left;
+    background-color: #F5978D;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.step3A img {
+    height: 500px;
+    width: 33.33%;
+    float: left;
+    margin-top: 10px;
+    margin-top: 10px;
+}
