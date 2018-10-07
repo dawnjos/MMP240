@@ -2,13 +2,14 @@ body {
     width: 100%;
     background-color: #F5978D;
     font-family: 'Oswald', sans-serif;
+    color: black;
 
     
 }
 
 nav {
-    width: 100%;
-    background-color: gray;
+    width: 99%;
+    background-color: #F5978D;
     text-align: right;
 }
 
@@ -23,9 +24,11 @@ nav li {
 nav a {
         display: inline-block;
         padding: 20px;
-        background-color: lightblue;
+        background-color: #C3BEC4;
         color: black;
         text-decoration: none;
+        margin-right: 5px;
+        
         
 }
 
@@ -41,11 +44,25 @@ nav a:hover {
     width: 50%;
 }
 
-.header h1 {
+h1 {
     text-align: center;
-    font-family: 'Francois One', sans-serif;
-    font-size: 40px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    
 
+}
+
+.header h1 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDCB90;
 }
 
 h2 {
@@ -70,6 +87,7 @@ p {
     justify-content: center;
 }
 
+/*Step*/
 .step1 img {
     height: 600px;
     width: 60%;
@@ -92,7 +110,7 @@ p {
     margin-bottom: 20px;
 }
 
-
+/*Step*/
 .step2A img {
     height: 732px;
     width: 60%;
@@ -113,6 +131,7 @@ p {
     margin-bottom: 20px;
 }
 
+/*Step 3*/
 .step3 img {
     height: 500px;
     width: 33.33%;
@@ -137,4 +156,9 @@ p {
     float: left;
     margin-top: 10px;
     margin-top: 10px;
+}
+
+
+footer {
+    
 }
