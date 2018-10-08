@@ -216,5 +216,13 @@ hr {
 }
 
 
-.line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+.line-break {
+    border-bottom:1px solid black;
+    width: 150px; 
+    margin:0 auto;
+}
+
+a {
+    color: #475975;
+}
 
