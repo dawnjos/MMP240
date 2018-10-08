@@ -1,0 +1,48 @@
+/* CSS Reset */
+*{  margin: 0;
+    padding: 0;  
+}
+
+body {
+    background-color: darkgray;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+   background-color: black;
+   height: 300px;
+   margin-top: 50px;
+   margin-bottom: 10px;
+}
+
+aside {
+    background-color: tomato;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+/*    margin-bottom: 10px;*/
+}
+
+article {
+    background-color: black;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+/*    margin-bottom: 10px;*/
+}
+
+section {
+    height: 400px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+footer {
+   background-color: black;
+   height: 150px;
+   clear: both;
+   
+}
