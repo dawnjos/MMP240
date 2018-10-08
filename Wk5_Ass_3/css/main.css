@@ -1,16 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     width: 100%;
     background-color: #F5978D;
     font-family: 'Oswald', sans-serif;
-    color: black;
-
-    
+    color: black; 
 }
+
 
 nav {
     width: 100%;
@@ -18,29 +12,34 @@ nav {
     text-align: right;
 }
 
+
 nav ul {
         list-style: none;
 }
+
 
 nav li {
         display: inline;
 }
 
+
 nav a {
         display: inline-block;
         padding: 20px;
         background-color: #C3BEC4;
-        color: black;
+        color: #475975;
         text-decoration: none;
         margin-right: 5px;
-        
-        
+        font-weight: bolder;
+        font-size: 20px;
 }
+
 
 nav a:hover {
              background-color: black;
              color: white;
 } 
+
 
 .center {
     display: block;
@@ -49,13 +48,15 @@ nav a:hover {
     width: 50%;
 }
 
+
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
-    
-
+    color: #010400;
+    text-shadow: 2px 2px #C3BEC4;
 }
+
 
 .header h1 {
     width: 50%;
@@ -68,7 +69,9 @@ h1 {
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     background-color: #FDCB90;
+    color: #475975;
 }
+
 
 h2 {
     width: 70%;
@@ -81,8 +84,10 @@ h2 {
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     background-color: #F5978D;
-
+    color: #010400;
+    text-shadow: 2px 2px #C3BEC4;
 }
+
 
 p {
     display: block;
@@ -90,7 +95,13 @@ p {
     margin-right: auto;
     width: 70%;
     justify-content: center;
+    
 }
+
+u {
+    color: #010400; 
+}
+ 
 
 /*Step 1*/
 .step1 img {
@@ -108,6 +119,7 @@ p {
     margin-top: 10px;
     font-size: 28px;
 }
+
 
 /*Step 2*/
 .step2A img {
@@ -136,6 +148,7 @@ p {
     margin-top: 10px;
 }
 
+
 /*Step 3*/
 .step3 img {
     height: 500px;
@@ -151,7 +164,7 @@ p {
     float: left;
     background-color: #F5978D;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-top: 10px;
 }
 
@@ -164,13 +177,20 @@ p {
 }
 
 
+
 footer {
-    /*background-color: #F5978D;*/
-   height: 150px;
-   clear: both;
+    height: 150px;
     text-align: center;
-    font-size: 20px; 
+    font-size: 20px;
+    background-color: #FDCB90;
+    color: #475975;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
 
 hr { 
     display: block;
@@ -180,5 +200,21 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 5px;
-    color: 
 }
+
+.main footer {
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #F5978D;
+    color: #010400;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+
+.line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
