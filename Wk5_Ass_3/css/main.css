@@ -1,8 +1,15 @@
+*/*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}*/
 body {
     width: 100%;
     background-color: #F5978D;
     font-family: 'Oswald', sans-serif;
-    color: black; 
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
 
