@@ -1,0 +1,200 @@
+
+
+body{
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Sticky top navigation bar */
+.navbar-dark .navbar-nav .nav-link  {
+  color: #009999; 
+}
+
+/* Using !important */
+.nav-link:hover {
+  color: gainsboro !important;
+}
+
+.navbar, .navbar-expand-md, .navbar-dark, .bg-primary, .sticky-top {
+  background-color: #272829 !important;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 20px;
+}
+
+a: link {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;   
+}
+
+.header h1 {
+    width: 88%;
+    display: block;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    width: 62%;
+    text-align: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: 
+    font-size: 40px;
+    color: #010400;
+    text-shadow: 2px 2px #C3BEC4;
+}
+
+h4 {
+    width: 62%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+/* Home page */
+.home-image img {
+    height: 500px;
+    width: 62%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+.advertise-image1 img {
+    height: 500px;
+    width: 20%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 6%;
+}
+
+.main-text article p {
+    width: 62%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+}
+
+.cover img {
+    height: 1000px;
+    width: 62%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+h5 {
+    width: 62%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+h6 {
+    width: 62%;
+    float: left;
+    margin-left: 6%;
+    /*margin-top: 10px;*/
+    margin-bottom: 1px;
+    color: darkgray;
+}
+
+hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+}
+
+
+
+/*Inside page images*/
+.inside1 img {
+    height: 350px;
+    width: 28%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.inside2 img {
+    height: 350px;
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.inside3 img {
+    height: 350px;
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 6%;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+/*Subscribe ss*/ 
+body {
+	/*background: url('/assets/example/bg_6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+  	background-color: #fff;
+    
+    
+}
+
+h1 .btn {
+	font-size:30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.btn {
+    background-color: #F82665;
+    text-decoration-color: #fff;
+    margin-left: 42%;
+    border-radius: 10px;
+    
+    
+}
+
+/*Subscribe Css Jumbotron*/
+.jumbotron {
+    
+    background-color: #F82665;
+    background-size: cover;
+    color: #fff;
+    height: 440px;
+    padding-left: 70px;
+    margin-bottom: 3%;
+    
+}
+ 
+.sub-image img {
+    height: 400px;
+    width: 25%;
+    float: right;
+    margin-right: 38%;
+    margin-top: 1.5%;
+    
+}
