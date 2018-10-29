@@ -1,19 +1,17 @@
-//Gallery
-// Created by Avaz Bokiev @samarkandiy
-$(document).ready(function(){
-  $("[class^='thumbnail-']").click(function(){
-    $("[class^='thumbnail-']").slideToggle("fast");
-    $(this).next("[class^='large-']").slideToggle();
-  });
-  
-  $(".close").click(function(){
-    $("[class^='large-']:visible").toggle();
-    $("[class^='thumbnail-']").fadeToggle("fast");; 
-  }); 
-  
-});
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
-new WOW().init();
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
   
 //Contact css
 
