@@ -60,6 +60,15 @@ h4 {
     margin-bottom: 1px;
 }
 
+h2 {
+    width: 62%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+
 /* Home page */
 .home-image img {
     height: 500px;
@@ -190,13 +199,13 @@ hr {
 /**************************/
 #parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
 #parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
-#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff5da ; opacity: 0.70;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; opacity: 0.70;}
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px;padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-mag2.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; margin-left: 5%; margin-right: 5%; height: 650px;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-family2.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; margin-left: 5%; margin-right: 5%; height: 650px;}
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-vogue-cover.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; margin-left: 5%; margin-right: 5%; height: 650px;}
+#parallax-world-of-ugg .parallax-one {padding-top: 200px;padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-mag2.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; height: 650px; margin-left: 5%; margin-right: 5%;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-sh-family.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; height: 650px; margin-left: 5%; margin-right: 5%; }
+#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-blackish.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; height: 650px; margin-left: 5%; margin-right: %;}
 
 /* Extras */
 /**************************/
@@ -245,6 +254,38 @@ h1 .btn {
     
     
 }
+
+/* About fashion css */
+.fashion1 img {
+    height: 400px;
+    width: 28%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.fashion2 img {
+    height: 400px;
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.fashion3 img {
+    height: 400px;
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 6%;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+
+/* End of gallery */
 
 /*Subscribe Css Jumbotron*/
 .jumbotron {
