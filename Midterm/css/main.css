@@ -128,7 +128,7 @@ h6 {
     float: left;
     margin-left: 6%;
     margin-top: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .inside2 img {
@@ -136,8 +136,8 @@ h6 {
     width: 28%;
     float: left;
     margin-left: 2%;
-    margin-top: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .inside3 img {
@@ -147,7 +147,7 @@ h6 {
     margin-left: 2%;
     margin-right: 6%;
     margin-top: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about-text article p {
@@ -249,6 +249,7 @@ h1 .btn {
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
     
    
@@ -260,6 +261,7 @@ h1 .btn {
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 10px;
+    margin-bottom: 20px;
    
 }
 
@@ -270,6 +272,7 @@ h1 .btn {
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 10px;
+    margin-bottom: 20px;
   
 }
 
@@ -279,8 +282,8 @@ h1 .btn {
     width: 28%;
     float: left;
     margin-left: 6%;
-    margin-top: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .fashion2 img {
@@ -289,7 +292,7 @@ h1 .btn {
     float: left;
     margin-left: 2%;
     margin-top: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .fashion3 img {
@@ -298,8 +301,8 @@ h1 .btn {
     float: left;
     margin-left: 2%;
     margin-right: 6%;
-    margin-top: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 /* End of gallery */
 
