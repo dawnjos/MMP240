@@ -66,6 +66,7 @@ h2 {
     margin-left: 6%;
     margin-top: 10px;
     margin-bottom: 1px;
+    font-size: 25px;
 }
 
 
@@ -203,9 +204,9 @@ hr {
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px;padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-mag2.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; height: 650px; margin-left: 5%; margin-right: 5%;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-sh-family.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; height: 650px; margin-left: 5%; margin-right: 5%; }
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 90%; background-image: url(../image/yara-blackish.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; height: 650px; margin-left: 5%; margin-right: %;}
+#parallax-world-of-ugg .parallax-one {padding-top: 200px;padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(../image/yara-mich02.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; height: 650px;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(../image/yara-sh-family.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; height: 650px;}
+#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(../image/yara-blackish.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; height: 650px;}
 
 /* Extras */
 /**************************/
@@ -306,4 +307,136 @@ h1 .btn {
     margin-right: 38%;
     margin-top: 1.5%;
     
+}
+
+/* Footer social media
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+ */
+/* Add a hover effect if you want 
+.fa:hover {
+    opacity: 0.7;
+}*/
+
+/* Set a specific color for each brand */
+
+/* Facebook 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram 
+.fa-instagram {
+    background: #4c5fd7;
+    color: white;
+}
+
+/* Youtube 
+.fa-youtube {
+    background: #ff0000;
+    color: white;
+}
+
+/* Pinterest 
+.fa-pinterest {
+    background: #bd081c;
+    color: white;
+}*/
+
+/*.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}*/
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    color: #fff;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    color: #fff;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    color: #fff;
+}
+.fa-youtube:hover {
+    background-color: #ff0000;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    color: #fff;
+}
+.fa-instagram:hover {
+    background-color: #4c5fd7;
+}
+.fa-pinterest {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    color: #fff;
+}
+.fa-pinterest:hover {
+    background-color: #bd081c;
 }
