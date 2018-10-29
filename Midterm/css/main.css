@@ -17,7 +17,7 @@ body{
 .navbar, .navbar-expand-md, .navbar-dark, .bg-primary, .sticky-top {
   background-color: #272829 !important;
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bolder;
        
 }
@@ -239,6 +239,38 @@ h1 .btn {
     text-decoration-color: #fff;
     margin-left: 42%;
     border-radius: 10px;   
+}
+
+/* News css */
+.news-image1 img {
+    height: 400px;
+    width: 88%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+}
+    
+   
+
+.news-image2 img {
+    height: 400px;
+    width: 88%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+   
+}
+
+.news-image3 img {
+    height: 400px;
+    width: 88%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+  
 }
 
 /* About fashion css */
