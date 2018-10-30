@@ -24,7 +24,12 @@ body{
 a: link {
     color: white;
     text-decoration: none;
-    background-color: transparent;   
+    background-color: #C3BEC4;   
+}
+
+nav a:hover {
+             background-color: #211a23;
+             color: white;             
 }
 
 .header h1 {
@@ -47,10 +52,11 @@ h1 {
     text-align: left;
     margin-left: 6%;
     margin-right: 6%;
-    font-family: 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
     font-size: 40px;
     color: #010400;
-    text-shadow: 2px 2px #C3BEC4;
+    /*text-shadow: 2px 2px #C3BEC4;*/
 }
 
 h4 {
@@ -63,11 +69,12 @@ h4 {
 
 h2 {
     width: 62%;
-    float: left;
+    text-align: left;
     margin-left: 6%;
-    margin-top: 10px;
-    margin-bottom: 1px;
-    font-size: 25px;
+    margin-right: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #010400;
 }
 
 
@@ -124,30 +131,30 @@ h6 {
 /*Inside page images*/
 .inside1 img {
     height: 350px;
-    width: 28%;
+    width: 26%;
     float: left;
     margin-left: 6%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .inside2 img {
     height: 350px;
-    width: 28%;
+    width: 26%;
     float: left;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .inside3 img {
     height: 350px;
-    width: 28%;
+    width: 26%;
     float: left;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-right: 6%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .about-text article p {
@@ -299,7 +306,7 @@ h1 .btn {
 /* About fashion css */
 .fashion1 img {
     height: 400px;
-    width: 28%;
+    width: 22%;
     float: left;
     margin-left: 6%;
     margin-top: 20px;
@@ -308,18 +315,28 @@ h1 .btn {
 
 .fashion2 img {
     height: 400px;
-    width: 28%;
+    width: 22%;
     float: left;
-    margin-left: 2%;
+    /*margin-left: 4.5%;*/
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .fashion3 img {
     height: 400px;
-    width: 28%;
+    width: 22%;
     float: left;
-    margin-left: 2%;
+    /*margin-left: 4.5%;
+    margin-right: 8%;*/
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fashion4 img {
+    height: 400px;
+    width: 22%;
+    float: left;
+    /*margin-left: 4.5%;*/
     margin-right: 6%;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -468,7 +485,7 @@ footer {
 .active, .collapsible:hover {
   background-color: grey;
   font-size: 20px;
-  
+    margin-left: 6%! important;
 }
 
 /* Style the collapsible content. Note: hidden by default */
