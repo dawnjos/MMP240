@@ -243,8 +243,8 @@ h1 .btn {
 
 /* News css */
 .news-image1 img {
-    height: 400px;
-    width: 88%;
+    height: 200px;
+    width: %;
     float: left;
     margin-left: 6%;
     margin-right: 6%;
@@ -252,28 +252,54 @@ h1 .btn {
     margin-bottom: 20px;
 }
     
-   
-
 .news-image2 img {
-    height: 400px;
-    width: 88%;
+    height: 200px;
+    width: %;
     float: left;
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 10px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px; 
 }
 
 .news-image3 img {
-    height: 400px;
-    width: 88%;
+    height: 200px;
+    width: %;
     float: left;
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 10px;
     margin-bottom: 20px;
-  
+}
+
+.news-image4 img {
+    height: 200px;
+    width: %;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.news-image5 img {
+    height: 200px;
+    width: %;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.news-image6 img {
+    height: 200px;
+    width: %;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* About fashion css */
