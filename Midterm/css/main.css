@@ -368,8 +368,10 @@ h1 .btn {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
+    margin-top: 2%;
     background-color: #322f30;
     color: #fff;
+    
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
@@ -381,8 +383,10 @@ h1 .btn {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
+    margin-top: 2%;
     background-color: #322f30;
     color: #fff;
+    
 }
 .fa-twitter:hover {
     background-color: #00aced;
@@ -394,6 +398,7 @@ h1 .btn {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
+    margin-top: 2%;
     background-color: #322f30;
     color: #fff;
 }
@@ -407,6 +412,7 @@ h1 .btn {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
+    margin-top: 2%;
     background-color: #322f30;
     color: #fff;
 }
@@ -420,6 +426,7 @@ h1 .btn {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
+    margin-top: 2%;
     background-color: #322f30;
     color: #fff;
 }
@@ -475,14 +482,16 @@ footer {
     color: #fff! important;
     background: #000;
     padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
     text-align: center;
+    
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: grey;
   font-size: 20px;
-    margin-left: 6%! important;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -505,3 +514,13 @@ i {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
+
+@media only screen and  (min-width:380px){
+     
+    
+}
+
+@media only screen and  (min-width:769px){
+     
+}
+
