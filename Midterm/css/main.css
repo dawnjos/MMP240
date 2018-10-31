@@ -6,7 +6,7 @@ body{
 
 /* Sticky top navigation bar */
 .navbar-dark .navbar-nav .nav-link  {
-  color: #F82665; 
+  color: #F82665;
 }
 
 /* Using !important */
@@ -18,18 +18,17 @@ body{
   background-color: #272829 !important;
   font-family: 'Chakra Petch', sans-serif;
   font-size: 20px;
-  font-weight: bolder;
-       
+  font-weight: bolder;     
 }
 a: link {
     color: white;
     text-decoration: none;
-    background-color: #C3BEC4;   
+    background-color: #C3BEC4;
 }
 
 nav a:hover {
-             background-color: #211a23;
-             color: white;             
+             background-color: #050914;
+             color: white; 
 }
 
 .header h1 {
@@ -377,7 +376,7 @@ h1 .btn {
     background-color: #3d5b99;
 }
 .fa-twitter {
-    padding:10px 12px;
+    padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -420,7 +419,7 @@ h1 .btn {
     background-color: #4c5fd7;
 }
 .fa-pinterest {
-    padding:10px 9px;
+    padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
