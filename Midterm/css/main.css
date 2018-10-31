@@ -231,7 +231,7 @@ h6 {
 }
 
 
-/*Subscribe ss*/ 
+/*Subscribe CSS*/ 
 body {
   	background-color: #fff;  
 }
@@ -249,7 +249,9 @@ h1 .btn {
     border-radius: 10px;   
 }
 
-/* News css */
+
+/*  Home page News CSS */
+/* Start of news-image1 CSS */
 .news-image1 img {
     height: 200px;
     float: left;
@@ -258,7 +260,27 @@ h1 .btn {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-    
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.news-image1:hover .image {
+  opacity: 0.3;
+}
+
+.news-image1:hover .middle {
+  opacity: 1;
+}
+/* End of news-image1 CSS */
+
+/* Start of news-image1 CSS */
 .news-image2 img {
     height: 200px;
     float: left;
@@ -268,6 +290,26 @@ h1 .btn {
     margin-bottom: 20px; 
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.news-image2:hover .image {
+  opacity: 0.3;
+}
+
+.news-image2:hover .middle {
+  opacity: 1;
+}
+/* End of news-image1 CSS */
+
+/* Start of news-image1 CSS */
 .news-image3 img {
     height: 200px;
     float: left;
@@ -277,6 +319,26 @@ h1 .btn {
     margin-bottom: 20px;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.news-image3:hover .image {
+  opacity: 0.3;
+}
+
+.news-image3:hover .middle {
+  opacity: 1;
+}
+/* End of news-image1 CSS */
+
+/* Start of news-image1 CSS */
 .news-image4 img {
     height: 200px;
     float: left;
@@ -286,6 +348,26 @@ h1 .btn {
     margin-bottom: 20px;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.news-image4:hover .image {
+  opacity: 0.3;
+}
+
+.news-image4:hover .middle {
+  opacity: 1;
+}
+/* End of news-image1 CSS */
+
+/* Start of news-image1 CSS */
 .news-image5 img {
     height: 200px;
     float: left;
@@ -295,6 +377,26 @@ h1 .btn {
     margin-bottom: 20px;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.news-image5:hover .image {
+  opacity: 0.3;
+}
+
+.news-image5:hover .middle {
+  opacity: 1;
+}
+/* End of news-image1 CSS */
+
+/* Start of news-image1 CSS */
 .news-image6 img {
     height: 200px;
     float: left;
@@ -303,6 +405,26 @@ h1 .btn {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.news-image6:hover .image {
+  opacity: 0.3;
+}
+
+.news-image6:hover .middle {
+  opacity: 1;
+}
+/* End of news-image1 CSS */
+
 
 /* About fashion css */
 .fashion1 img {
@@ -522,4 +644,5 @@ i {
 @media only screen and  (min-width:769px){
      
 }
+
 
