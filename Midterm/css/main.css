@@ -94,6 +94,14 @@ h2 {
     margin-right: 6%;
 }
 
+.advertise-image3 img {
+    height: 225px;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5px;  
+}
+
 .main-text article p {
     width: 62%;
     float: left;
@@ -248,7 +256,6 @@ h1 .btn {
     margin-left: 42%;
     border-radius: 10px;   
 }
-
 
 /*  Home page News CSS */
 /* Start of news-image1 CSS */
