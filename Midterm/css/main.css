@@ -96,9 +96,7 @@ h2 {
 
 .advertise-image3 img {
     height: 225px;
-    width: 88%;
-    margin-left: 6%;
-    margin-right: 6%;
+    width: 100%;
     margin-top: 5px;  
 }
 
@@ -642,14 +640,4 @@ i {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-
-@media only screen and  (min-width:380px){
-     
-    
-}
-
-@media only screen and  (min-width:769px){
-     
-}
-
 
