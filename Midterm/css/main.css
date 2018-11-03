@@ -4,6 +4,9 @@ body{
     padding: 0;
 }
 
+b {
+    font-weight:bolder;
+}
 /* Sticky top navigation bar */
 .navbar-dark .navbar-nav .nav-link  {
   color: #F82665;
@@ -95,7 +98,7 @@ h2 {
 }
 
 .advertise-image3 img {
-    height: 205px;
+    height: 250px;
     width: 100%;
 }
 
@@ -235,25 +238,6 @@ h6 {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
 }
 
-
-/*Subscribe CSS*/ 
-body {
-  	background-color: #fff;  
-}
-
-h1 .btn {
-	font-size:30px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
-}
-
-.btn {
-    background-color: #F82665;
-    text-decoration-color: #fff;
-    margin-left: 42%;
-    border-radius: 10px;   
-}
-
 /*  Home page News CSS */
 /* Start of news-image1 CSS */
 .news-image1 img {
@@ -289,7 +273,7 @@ h1 .btn {
     left: 64%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #272829;
     color: white;
     font-size: 16px;
     padding: 10px 15px;
@@ -340,7 +324,7 @@ h1 .btn {
     left: 112.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #272829;
     color: white;
     font-size: 16px;
     padding: 10px 15px;
@@ -391,7 +375,7 @@ h1 .btn {
     left: 64%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #272829;
     color: white;
     font-size: 16px;
     padding: 10px 15px;
@@ -442,7 +426,7 @@ h1 .btn {
     left: 112.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #272829;
     color: white;
     font-size: 16px;
     padding: 10px 15px;
@@ -493,7 +477,7 @@ h1 .btn {
     left: 64%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #272829;
     color: white;
     font-size: 16px;
     padding: 10px 15px;
@@ -544,7 +528,7 @@ h1 .btn {
     left: 112.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #272829;
     color: white;
     font-size: 16px;
     padding: 10px 15px;
@@ -616,6 +600,24 @@ h1 .btn {
     margin-right: 38%;
     margin-top: 1.5%;  
 }
+/*Subscribe CSS*/ 
+body {
+  	background-color: #fff;  
+}
+
+h1 .btn {
+	font-size:30px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.btn {
+    background-color: #F82665;
+    text-decoration-color: #fff;
+    margin-left: 42%;
+    border-radius: 10px;
+}
+/* Subscribe End */
 
 /* Social media icon */
 .fa-facebook {
