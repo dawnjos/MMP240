@@ -633,7 +633,8 @@ h1 .btn {
     
 }
 .fa-facebook:hover {
-    background-color: #3d5b99;
+    background-color: #3B5998;
+    color: #fff;
 }
 .fa-twitter {
     padding:10px 14px;
@@ -648,7 +649,8 @@ h1 .btn {
     
 }
 .fa-twitter:hover {
-    background-color: #00aced;
+    background-color: #1DA1F2;
+    color: #fff;
 }
 .fa-youtube {
     padding:10px 14px;
@@ -663,6 +665,7 @@ h1 .btn {
 }
 .fa-youtube:hover {
     background-color: #ff0000;
+    color: #fff;
 }
 .fa-instagram {
     padding:10px 14px;
@@ -676,7 +679,8 @@ h1 .btn {
     color: #fff;
 }
 .fa-instagram:hover {
-    background-color: #4c5fd7;
+    background-color: #4c68d7;
+    color: #fff;
 }
 .fa-pinterest {
     padding:10px 14px;
@@ -690,7 +694,8 @@ h1 .btn {
     color: #fff;
 }
 .fa-pinterest:hover {
-    background-color: #bd081c;
+    background-color: #BD081C;
+    color: #fff;
 }
 
 footer {
