@@ -282,6 +282,28 @@ h1 .btn {
 .news-image1:hover .middle {
   opacity: 1;
 }
+
+/* news-image button css */
+.news-image1 .btn1 {
+    position: absolute;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 9%;  
+}
+
+.news-image1 .btn1:hover {
+    background-color: #F82665;
+}
+/* button end */
 /* End of news-image1 CSS */
 
 /* Start of news-image1 CSS */
@@ -311,6 +333,28 @@ h1 .btn {
 .news-image2:hover .middle {
   opacity: 1;
 }
+
+/* news-image button css */
+.news-image2 .btn2 {
+    position: absolute;
+    left: 112.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 9%;  
+}
+
+.news-image2 .btn2:hover {
+    background-color: #F82665;
+}
+/* button end */
 /* End of news-image1 CSS */
 
 /* Start of news-image1 CSS */
@@ -340,6 +384,28 @@ h1 .btn {
 .news-image3:hover .middle {
   opacity: 1;
 }
+
+/* news-image button css */
+.news-image3 .btn3 {
+    position: absolute;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 27%;  
+}
+
+.news-image3 .btn3:hover {
+    background-color: #F82665;
+}
+/* button end */
 /* End of news-image1 CSS */
 
 /* Start of news-image1 CSS */
@@ -369,6 +435,28 @@ h1 .btn {
 .news-image4:hover .middle {
   opacity: 1;
 }
+
+/* news-image button css */
+.news-image4 .btn4 {
+    position: absolute;
+    left: 112.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 27%;  
+}
+
+.news-image4 .btn4:hover {
+    background-color: #F82665;
+}
+/* button end */
 /* End of news-image1 CSS */
 
 /* Start of news-image1 CSS */
@@ -398,6 +486,28 @@ h1 .btn {
 .news-image5:hover .middle {
   opacity: 1;
 }
+
+/* news-image button css */
+.news-image5 .btn5 {
+    position: absolute;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 45%;  
+}
+
+.news-image5 .btn5:hover {
+    background-color: #F82665;
+}
+/* button end */
 /* End of news-image1 CSS */
 
 /* Start of news-image1 CSS */
@@ -427,6 +537,28 @@ h1 .btn {
 .news-image6:hover .middle {
   opacity: 1;
 }
+
+/* news-image button css */
+.news-image6 .btn6 {
+    position: absolute;
+    left: 112.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 45%;  
+}
+
+.news-image6 .btn6:hover {
+    background-color: #F82665;
+}
+/* button end */
 /* End of news-image1 CSS */
 
 
@@ -615,8 +747,8 @@ footer {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: grey;
-  font-size: 20px;
+  background-color: #F82665;
+  font-size: 20px;  
 }
 
 /* Style the collapsible content. Note: hidden by default */
