@@ -764,6 +764,7 @@ footer {
   display: none;
   overflow: hidden;
   background-color: gainsboro;
+  text-align: justify;
 }
 
 /* Style for down arrow. */
