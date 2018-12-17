@@ -514,6 +514,11 @@ h4 {
     text-align: center;
 }
 
+.sidebar {
+    padding-bottom: 2%;
+    
+}
+
 /*Footer CSS*/
 section{
   text-align:center;
