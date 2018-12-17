@@ -353,7 +353,7 @@ div.desc {
 /* Bottom right text */
 .text-block {
   position: absolute;
-  top: 20px;
+  top: 14px;
   right: 20px;
   background-color: white;
   color: #351A1A;
