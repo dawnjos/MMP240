@@ -23,9 +23,10 @@ div.sticky {
 }
 
 .header-name {
-    font-size: 40px;
-    color: #13233B;
+    font-size: 2em;
+    color: #A79344;
     font-family: 'Noto Serif SC', serif;
+    font-weight: 700;
 }
 
 /*Navigation*/
@@ -61,7 +62,7 @@ li {
 }
   
 li a {
-  color: #351A1A;
+  color: #A79344;
   font-size: 15px;
 }
 
@@ -104,13 +105,14 @@ hr.style1 {
     margin-right: 30%;
     height: 10px;
 	border: 0;
-	box-shadow: 0 10px 10px -10px #8b8b8b inset;    
+	box-shadow: 0 10px 10px -10px #8b8b8b inset;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 4%;
     font-family: font-family: 'Libre Baskerville', serif;
+    color: #A79344;
 }
 
 h4 {
@@ -133,6 +135,8 @@ h4 {
 /*    margin-left: 10%;*/
     margin-top: 7%;
     text-align: center;
+    color: #A79344;
+    text-decoration: underline;
 }
 
 .bab-text article p {
@@ -162,7 +166,8 @@ h4 {
     margin-top: 2%;
     margin-bottom: 1%;
     float: left;
-    color: #13233B;
+    color: #A79344;
+    text-decoration: underline;
 }
 
 .bab1 article img {
@@ -208,7 +213,7 @@ hr {
     text-align: center;
     margin-top: 4%;
     margin-bottom: 4%;
-/*    color: goldenrod;*/   
+    color: #A79344;
 }
 
 
@@ -325,6 +330,9 @@ div.desc {
     width: 49.99999%;
     margin: 6px 0;
   }
+    .text-block{
+        
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -347,22 +355,28 @@ div.desc {
 
 /*About Image and Text*/
 .about-container {
-  position: relative; 
+  position: relative;
+}
+
+.about-container img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Bottom right text */
 .text-block {
   position: absolute;
-  top: 14px;
-  right: 20px;
+  top:2%;
+  right: 3%;
   background-color: white;
   color: #351A1A;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
   margin-left: 32%;
   margin-right: 43%;
   margin-top: 13%;
-  font-size: 22px;
+  font-size: 100%;
+  line-height: 1.6em;
 }
 
 h3 {
@@ -377,6 +391,7 @@ h3 {
 
 .team {
     text-align: center;
+    color: #A79344;
 }
 
 /*Team Members*/
@@ -457,7 +472,6 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color: #fff;
-  color: #351A1A;
   padding: 12px 20px;
   border: none;
   border-radius: 3px;*/
@@ -471,7 +485,6 @@ input[type=submit]:hover {
 
 input[type=email] {
   background-color: #fff;
-  color: #351A1A;
   padding: 12px 10px;
   border: none;
   border-radius: 3px;*/
@@ -490,6 +503,11 @@ input[type=email]:hover {
   padding: 20px;
   margin-left: 10%;
   margin-right: 10%;   
+}
+
+.contact-container a{
+    color: #A79344;
+    text-decoration: underline;
 }
 
 h4 {
@@ -567,7 +585,7 @@ hr.style2 {
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.86em;
 }
 
 .footer2 article {
@@ -579,7 +597,8 @@ hr.style2 {
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.86em;
+    
 }
 
 .footer3 article {
@@ -592,7 +611,7 @@ hr.style2 {
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.86em;
 }
 
 /* Social media icon */
@@ -662,6 +681,7 @@ hr.style2 {
 
 h6 {
     font-size: 16px;
+    color: #A79344; 
 }
 
 
