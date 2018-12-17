@@ -437,21 +437,6 @@ h3 {
 }
 
 /*Contact Form*/
-/*Sidebar*/
-/*.sidebar {
-    position: absolute;
-    width: 20.5%;
-    background-color: #C1E5D9;
-    margin-left: 10%;
-    border-radius: 3px;
-    height: 616px;
-}
-
-.sidebar ul {
-    display: block;
-    text-align: left;
-    text-decoration: none;
-}*/
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -466,7 +451,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #C1E5D9;
+  background-color: #B2B1BB;
   color: #351A1A;
   padding: 12px 20px;
   border: none;
@@ -476,7 +461,21 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #C1E5D9;
+}
+
+input[type=email] {
+  background-color: #B2B1BB;
+  color: #351A1A;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 3px;*/
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=email]:hover {
+  background-color: #C1E5D9;
 }
 
 /* Add a background color and some padding around the form */
@@ -559,4 +558,5 @@ hr.style2 {
 	margin-top:70px;
 	margin-left:40px;
 }
+
 
