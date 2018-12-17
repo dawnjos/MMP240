@@ -51,7 +51,7 @@ ul {
 }
 
 li {
-      color: #351A1A;
+      color: #A79344;
       background: #ececec;
       display: inline-block;
       padding: 16px;
@@ -623,7 +623,7 @@ hr.style2 {
     -webkit-transition:.5s;
     transition: .5s;
     margin-top: 12%;
-    background-color: #322f30;
+    background-color: #A79344;
     color: #fff;
     
 }
@@ -639,7 +639,7 @@ hr.style2 {
     -webkit-transition:.5s;
     transition: .5s;
     margin-top: 12%;
-    background-color: #322f30;
+    background-color: #A79344;
     color: #fff;
     
 }
@@ -656,7 +656,7 @@ hr.style2 {
     -webkit-transition:.5s;
     transition: .5s;
     margin-top: 12%;
-    background-color: #322f30;
+    background-color: #A79344;
     color: #fff;
 }
 .fa-instagram:hover {
@@ -671,7 +671,7 @@ hr.style2 {
     -webkit-transition:.5s;
     transition: .5s;
     margin-top: 12%;
-    background-color: #322f30;
+    background-color: #A79344;
     color: #fff;
 }
 .fa-pinterest:hover {
@@ -684,5 +684,13 @@ h6 {
     color: #A79344; 
 }
 
+.footer1 a {
+    color: black;
+    text-decoration: underline;
+}
 
+.footer3 a {
+    color: black;
+    text-decoration: underline;
+}
 
